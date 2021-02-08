@@ -1,0 +1,53 @@
+#inputs{
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  input{
+    width:95%;
+  }
+}
+#methods{
+  margin-top: 10px;
+  margin-left:2%;
+  width: 95%;
+  text-align: left;
+  label{
+    input{
+      display: none;
+    }
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 5px;
+    font-weight: bold;
+  }
+  label:hover{
+    background: rgb(49, 49, 109);
+  }
+  label:checked { background: rgb(49, 49, 109); }
+  button{
+    cursor: pointer;
+  }
+}
+textarea{
+  margin-left: 25px;
+  display: inline-block;
+  width: 95%;
+  overflow-x: hidden;
+}
+#loading{
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  left: 580px;
+  z-index: 1;
+
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
