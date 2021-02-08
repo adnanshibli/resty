@@ -1,0 +1,17 @@
+div{
+  margin-top: 20px;
+  width:100%;
+  #spanMethod span{
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+    padding: 3px;
+    background: blue;
+    cursor: pointer;
+  }
+  #spanURL span{
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+}

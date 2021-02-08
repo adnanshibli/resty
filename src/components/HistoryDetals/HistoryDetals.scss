@@ -1,0 +1,39 @@
+#details{
+  border: 1px solid black;
+  overflow-x: hidden;
+  width: 80%;
+  margin-left: 134px;
+  #result{
+    border: 1px solid black;
+    background: white;
+    width: 95%;
+    margin-left: 20px;
+    margin-top: 10px;
+    overflow-x: hidden;
+  }
+}
+#link{
+  padding: 12px;
+  background: rgb(49, 49, 109);
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  cursor: pointer;
+  position: absolute;
+  top:120px;
+  left:1150px;
+
+}
+#link:hover{
+  color: rgb(49, 49, 109);
+  background: white;
+}
+div p {
+  margin-left: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+div p:hover{
+  color: rgb(49, 49, 109);
+}
+
